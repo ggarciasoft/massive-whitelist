@@ -13,9 +13,9 @@ namespace MassiveWhitelist.Data.Models
         public int TaskGroupId { get; set; }
         public int TaskTypeId { get; set; }
         public decimal TaskPrice { get; set; }
-        public DateTime ExpireDate { get; set; }
+        public DateTime? ExpireDate { get; set; }
         public DateTime CreateDate { get; set; }
-        public DateTime UpdateDate { get; set; }
+        public DateTime? UpdateDate { get; set; }
         public TaskGroup TaskGroup { get; set; }
         public TaskType TaskType { get; set; }
     }
