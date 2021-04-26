@@ -11,5 +11,6 @@ namespace MassiveWhitelist.Data.Models
         public string TaskGroupDescription { get; set; }
         public DateTime CreateDate { get; set; }
         public DateTime? UpdateDate { get; set; }
+        public virtual ICollection<TaskInformation> Tasks { get; set; }
     }
 }
